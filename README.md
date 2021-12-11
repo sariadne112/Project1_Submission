@@ -107,4 +107,5 @@ SSH into the control node and follow the steps below:
 
 To run a playbook the following command will be used once hosts, config file and the playbook have been scripted.
 example: 
-- ansible-playbook install-elk.yml
+- ansible-playbook playbook-elk.yml
+- ![Playbook Running](Diagrams/playbook-example.png)
