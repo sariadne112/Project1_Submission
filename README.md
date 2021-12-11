@@ -66,7 +66,7 @@ A summary of the access policies in place can be found in the table below.
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because it proved a stable enviroment and allows to configure difficult manual ataskts that become repetable ans makes it less vulerable to human error. 
 
-The[playbook-elk](Ansible/playbook-elk.yml) implements the following tasks:
+The [playbook-elk](Ansible/playbook-elk.yml) implements the following tasks:
 - Give max number of memory map area of 262144.
 - Installs: 
     - docker.io 
