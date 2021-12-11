@@ -101,9 +101,10 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the filebeat-config.yml file to /etc/ansible/files directory.
 - Update the /etc/ansible/hosts file to include the IP addres of both web servers and the elk server to be able to specify what hosts are being configures with a playbook.
--   [hosts](Ansible/hosts.txt) specift wich servers belong to what hosts. Example:
-     [elk]
-     10.2.0.5 ansible_python_interpreter=/usr/bin/python3#alpha.example.org
+- [hosts](Ansible/hosts.txt) specift wich servers belong to what hosts.
+- Example:
+     - [elk]
+     - 10.2.0.5 ansible_python_interpreter=/usr/bin/python3#alpha.example.org
 - Run the playbook, and navigate to http://20.115.35.140:5601/app/kibana#/home  or http://[VM.IP]:5601/app/kibana to check that the installation worked as expected.
 
 To run a playbook the following command will be used once hosts, config file and the playbook have been scripted.
