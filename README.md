@@ -8,7 +8,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yaml file may be used to install only certain pieces of it, such as Filebeat.
 
-  - [install-elk](Ansible/install-elk.yml)
+  - [install-elk](Ansible/playbook-elk.yml)
   - [ansible configuration](Ansible/ansible.cfg)
   - [hosts](Ansible/hosts.txt)
 
@@ -66,7 +66,7 @@ A summary of the access policies in place can be found in the table below.
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because it proved a stable enviroment and allows to configure difficult manual ataskts that become repetable ans makes it less vulerable to human error. 
 
-The playbook [install-elk](Ansible/install-elk.yml) implements the following tasks:
+The[playbook-elk](Ansible/playbook-elk.yml) implements the following tasks:
 - Give max number of memory map area of 262144.
 - Installs: 
     - docker.io 
