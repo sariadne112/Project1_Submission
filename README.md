@@ -106,6 +106,6 @@ SSH into the control node and follow the steps below:
   10.2.0.5 ansible_python_interpreter=/usr/bin/python3#alpha.example.org
 - Run the playbook, and navigate to http://20.115.35.140:5601/app/kibana#/home  or http://[VM.IP]:5601/app/kibana to check that the installation worked as expected.
 
-To run a playbbok the following command will be used once hosts, config file and the playbook have been scripted.
-  example: 
-    - ansible-playbook install-elk.yml
+To run a playbook the following command will be used once hosts, config file and the playbook have been scripted.
+example: 
+- ansible-playbook install-elk.yml
